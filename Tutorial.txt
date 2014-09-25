@@ -6,3 +6,4 @@
 6: Open repo folder in windows explorer. Create/Edit documents.
 7: In Github client, add comments, etc., to "uncommited changes".
 8: "Commit", then, in the upper right-hand corner, "sync".
+Aaron's Test
