@@ -1,0 +1,8 @@
+1: "Clone in Desktop" in lower-right hand corner.
+2: Download and install Github for windows.
+3: In client app, clisk "+" in upper-left hand corner.
+4: Select MVC-SEC -> Website and then "clone".
+5: Select folder to create repo in. Htdocs in Xampp recommended(for quick testing).
+6: Open repo folder in windows explorer. Create/Edit documents.
+7: In Github client, add comments, etc., to "uncommited changes".
+8: "Commit", then, in the upper right-hand corner, "sync".
