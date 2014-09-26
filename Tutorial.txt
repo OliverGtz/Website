@@ -7,16 +7,4 @@
 7: In Github client, add comments, etc., to "uncommited changes".
 8: "Commit", then, in the upper right-hand corner, "sync".
 
-Aaron's Test
-
-
-Aaron's Second Test
-
-Oliver's Test
-
-
-Aaron's 3rd Test
-
-this is literally a new line.
-
-Now doing Oliver's test. Yee-haw!
+Testing out the "fork" method.
