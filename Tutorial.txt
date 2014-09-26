@@ -7,4 +7,4 @@
 7: In Github client, add comments, etc., to "uncommited changes".
 8: "Commit", then, in the upper right-hand corner, "sync".
 
-Testing out the "fork" method.
+Testing out the "branch" method.
