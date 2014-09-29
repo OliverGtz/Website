@@ -1,0 +1,149 @@
+@-moz-document domain(was02.rcc.edu)
+{
+	/* Sets size of page */
+	#webPage
+	{
+		position: relative !important;
+		width: 30% !important;
+	}
+	
+	
+
+	#headerBanner 
+	{
+		background-image: url('') !important;
+	}
+	#acctContact,
+	#acctMain,
+	#acctLogin,
+	#acctLogout,
+	#acctPassword
+	{
+		float: left !important;
+		width: 105px !important;
+		padding-bottom: 10px !important;
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+		border-left: 1px groove #FFFFFF !important;
+		border-right: 1px groove #FFFFFF !important;
+		box-shadow: 10px 10px 5px #000000 !important;
+		border-radius: 10px !important;
+		margin-right: 5px !important;
+	}
+	#acctPassword
+	{
+		width: 180px !important;
+	}
+	#acctConstituency,
+	#acctHelp
+	{
+		position: absolute !important;
+		pointer-events: none !important;
+		cursor: default !important;
+		opacity: 0 !important;	
+	}
+	.toolbar .label
+	{
+		font: italic small-caps bold 20px "Arial",sans-serif !important;
+	}
+	.customLinks
+	{
+		margin-top: 40px !important;
+		text-align: center !important;
+		font-size: 20px !important;
+	}
+	#acctWidget
+	{
+		height: 0px !important;
+	}
+	.custom
+	{
+		padding-top: 0px !important;
+	}
+	#mainBody .custom
+	{
+		position: absolute !important;
+		pointer-events: none !important;
+		cursor: default !important;
+		opacity: 0 !important;
+	}
+	#bodyConstituency
+	{
+		margin-left: 0px !important;
+	}
+	#bodyForm
+	{
+		margin-left: 10% !important;
+		margin-right: 10% !important;
+		margin-bottom: 30px !important;
+	}
+	#screenTitle
+	{
+		font-size: 400% !important;
+	}
+	td
+	{
+		font-size: 30px !important;
+	}
+	input
+	{
+		height: 30px !important;
+		width: 200px !important;
+		font-size: 30px !important;
+	}
+	input[type=checkbox]
+	{
+		transform: scale(2.5) !important;
+		-webkit-transfom: scale(2.5) !important;
+	}
+	input[type=submit]
+	{
+		height: 80px !important;
+		width: 300px !important;
+	}
+	#mainForm
+	{
+		float: left !important;
+		width: 500px !important;
+		height: 100px !important;
+		margin-top: 100px !important;
+	}
+	#mainForm #mainMenu A
+	{
+		width: 500px !important;
+		height: 100px !important;
+		font-size: 30px !important;
+		text-align: center !important;
+		vertical-align: middle !important;
+	}
+	.menu .right, 
+	.menu .left
+	{
+	float: left !important;
+	width: 100% !important;
+	}
+	.menu .submenu
+	{
+		font-size: 40px !important;
+	}
+	.menu ul li
+	{
+		width: 100% !important;
+		font-size: 30px !important;
+		margin-bottom: 20px !important;
+		border: 1px groove #000000 !important;
+		border-radius: 10px !important;
+		background-color: #D3D3D3 !important;
+	}
+	select
+	{
+		transform: scale(2) !important;
+		-webkit-transform: scale(2) !important;
+	}
+	#pageFooter
+	{
+	    pointer-events: none !important;
+		cursor: default !important;
+		opacity: 0 !important;
+	}
+}
