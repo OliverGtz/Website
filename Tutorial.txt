@@ -12,4 +12,3 @@
 12: On personal repo page, click "Pull Request".
 13. Follow prompts. Enter comments as needed.
 14: Superviser will review code and merge with master. 
-krrgyrbrrwf
