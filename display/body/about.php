@@ -22,8 +22,7 @@
 			<br />
 			<br />
 			<div id="languages-funny-div">
-			<img src="display/body/images/languages_funny.jpg" alt="languages_funny"
-				class="reflex itiltnone iopacity50">
+			<img src="display/body/images/languages_funny.jpg" alt="languages_funny">
 			</div>
 	</div>
 	<div class="pure-u-3-24">
