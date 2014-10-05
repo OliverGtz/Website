@@ -1,26 +1,29 @@
 
 #header
 {
-	font-family: Comic Sans MS;
+	font-family: "Times New Roman", Times, serif;
 	height: 10%; 
+	width: 100%;
 	text-align: center; 
 	background-color: grey;
-	border: 5px solid black; 
+	border: 1px solid black; 
 	border-radius: 5px;
+	letter-spacing: 2px;
 }
 #header h1
 {
-	font-size: 6em;
+	font-size: 4em;
 }
-# header ul
+#header .pure-menu
 {
-	display: inline;
-	list-style-type: none; 
-	font-size: 2em;
+	width: 100%;
 }
-#header li
+#header .pure-menu ul
 {
-	display: inline; 
-	padding-right: 5%;
-	font-size: 2em;
+	width: 100%;
+}
+#header .pure-menu li
+{
+	width: 25%;
+	font-size: 1.5em;
 }
