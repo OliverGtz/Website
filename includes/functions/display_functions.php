@@ -20,7 +20,19 @@ function getBody($pages, $pageNum)
 	{ 
         include(($pageNum == 404 ? BADREQUEST : BODYPATH.$pages[$pageNum]['filename']));
 	}
+	
 
+/*
+ Function: getCSS
+ Author: Aaron Clark
+ Description: echos out a CSS include tag for the current page's stylesheet.
+ Parameters: $pages (array containing page information), $pageNum (current page number)	
+*/
+ function getCSS($pages, $pageNum)
+	{
+		echo ("<link rel=\"stylesheet\" href=\"".BODYPATH.$pages[$pageNum]['stylesheet']."\">");
+	}
+	
 function getNav()
 	{
 		
@@ -29,8 +41,9 @@ function getNav()
  	      foreach($pages as $page)
        {
 
- 		 echo (($currentPage === $page['page']) ? "<a href =\"?page=".$page['page']." \"><li><u>".$page['page']."</a></u></li>" :
- 		          "<a href =\"?page=".$page['page']." \"><li>".$page['page']."</a></li>");   
+ 		 echo (($currentPage === $page['page']) ? "<a href =\"?page=".$page['page']." \">
+		 <li><u>".$page['page']."</a></u></li>" :
+ 		          "<a href =\"?page=".$page['page']." \"> <li>".$page['page']."</a></li>");   
        }
        
        	}

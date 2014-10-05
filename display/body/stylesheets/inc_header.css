@@ -1,0 +1,26 @@
+
+#header
+{
+	font-family: Comic Sans MS;
+	height: 10%; 
+	text-align: center; 
+	background-color: grey;
+	border: 5px solid black; 
+	border-radius: 5px;
+}
+#header h1
+{
+	font-size: 6em;
+}
+# header ul
+{
+	display: inline;
+	list-style-type: none; 
+	font-size: 2em;
+}
+#header li
+{
+	display: inline; 
+	padding-right: 5%;
+	font-size: 2em;
+}

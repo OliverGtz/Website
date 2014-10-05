@@ -27,22 +27,28 @@ $pages = array(
 	To add new page to site:
 
 	Step 1: Add an array with the following:
-	 array('page' => 'your_page_name_here', 'filename' => 'your_filename_here')
+	 array('page' => 'your_page_name_here', 'filename' => 'your_filename_here',
+		'stylesheet' => 'stylesheets/your_stylesheet_name')
 	 Note: Add commas as needed after each array, except for the last array.
 	 Filename Note: First letter must be capital.
 	 
-	 Step 2: Add a php file in the includes/body folder 
+	 Step 2: Add a php file in the display/body folder 
+	 Step 3: Add a css file in the display/body/stylesheets folder
 	 Note: filename must match filename in array from step 1.
 
-	 Step 3: Edit the file with html.
+	 Step 4: Edit the file with html.
 
 
    */
 
-	array( 'page' => 'Home', 'filename' => 'home.php', 'title' => 'Homepage - Software Engineering Club'),
-	array( 'page' => 'Projects', 'filename' => 'projects.php', 'title' => 'Our work - Software Engineering Club'),
-	array( 'page' => 'About', 'filename' => 'about.php', 'title' => 'About Us - MVC Club - Software Engineering Club'),
-	array( 'page' => 'Contact', 'filename' => 'contact.php', 'title' => "Contact Us")
+	array( 'page' => 'Home', 'filename' => 'home.php', 'title' => 'Homepage - Software Engineering Club', 
+		'stylesheet' => 'stylesheets/home.css'),
+	array( 'page' => 'Projects', 'filename' => 'projects.php', 'title' => 'Our work - Software Engineering Club',
+		'stylesheet' => 'stylesheets/projects.css'),
+	array( 'page' => 'About', 'filename' => 'about.php', 'title' => 'About Us - MVC Club - Software Engineering Club',
+		'stylesheet' => 'about.css'),
+	array( 'page' => 'Contact', 'filename' => 'contact.php', 'title' => "Contact Us",
+		'stylesheet' => 'contact.css')
 
 	 );
 
