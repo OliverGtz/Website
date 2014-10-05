@@ -46,9 +46,9 @@ $pages = array(
 	array( 'page' => 'Projects', 'filename' => 'projects.php', 'title' => 'Our work - Software Engineering Club',
 		'stylesheet' => 'stylesheets/projects.css'),
 	array( 'page' => 'About', 'filename' => 'about.php', 'title' => 'About Us - MVC Club - Software Engineering Club',
-		'stylesheet' => 'about.css'),
+		'stylesheet' => 'stylesheets/about.css'),
 	array( 'page' => 'Contact', 'filename' => 'contact.php', 'title' => "Contact Us",
-		'stylesheet' => 'contact.css')
+		'stylesheet' => 'stylesheets/contact.css')
 
 	 );
 
