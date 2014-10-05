@@ -33,8 +33,7 @@
 						<p>Develop software with other students</p>
 					</td>
 					<td>
-						<img src="display/body/images/software.png" alt="software"
-							class="reflex itiltnone iopacity90 iheight50"/>
+						<img src="display/body/images/software.png" alt="software"/>
 					</td>
 				</tr>
 			</table>
@@ -44,12 +43,10 @@
 			<table width="100%">
 				<tr>
 					<td>
-						<img src="display/body/images/git-logo.png" alt="git-logo"
-							class="reflex itiltnone iopacity90 iheight50"/>
+						<img src="display/body/images/git-logo.png" alt="git-logo"/>
 					</td>
 					<td>
-						<img src="display/body/images/git-branch.png" alt="git-branch"
-							class="reflex itiltnone iopacity90 iheight50"/>
+						<img src="display/body/images/git-branch.png" alt="git-branch"/>
 					</td>
 				</tr>
 				<tr>
@@ -64,8 +61,7 @@
 			<table width="100%">
 				<tr>
 					<td>
-						<img src="display/body/images/languages.png" alt="languages"
-							class="reflex itiltnone iopacity90 iheight50"/>
+						<img src="display/body/images/languages.png" alt="languages"/>
 					</td>
 				</tr>
 				<tr>
