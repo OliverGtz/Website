@@ -41,9 +41,9 @@ function getNav()
  	      foreach($pages as $page)
        {
 
- 		 echo (($currentPage === $page['page']) ? "<a href =\"?page=".$page['page']." \">
-		 <li><u>".$page['page']."</a></u></li>" :
- 		          "<a href =\"?page=".$page['page']." \"> <li>".$page['page']."</a></li>");   
+ 		 echo (($currentPage === $page['page']) ? "<li class=\"pure-menu-selected\"><a href =\"?page=".$page['page']." \">
+		 <u>".$page['page']."</a></u></li>" :
+ 		          "<li><a href =\"?page=".$page['page']." \">".$page['page']."</a></li>");   
        }
        
        	}
