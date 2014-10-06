@@ -42,13 +42,13 @@ $pages = array(
    */
 
 	array( 'page' => 'Home', 'filename' => 'home.php', 'title' => 'Homepage - Software Engineering Club', 
-		'stylesheet' => 'stylesheets/home.css'),
+		'stylesheet' => '../../stylesheets/home.css'),
 	array( 'page' => 'Projects', 'filename' => 'projects.php', 'title' => 'Our work - Software Engineering Club',
-		'stylesheet' => 'stylesheets/projects.css'),
+		'stylesheet' => '../../stylesheets/projects.css'),
 	array( 'page' => 'About', 'filename' => 'about.php', 'title' => 'About Us - MVC Club - Software Engineering Club',
-		'stylesheet' => 'stylesheets/about.css'),
+		'stylesheet' => '../../stylesheets/about.css'),
 	array( 'page' => 'Contact', 'filename' => 'contact.php', 'title' => "Contact Us",
-		'stylesheet' => 'stylesheets/contact.css')
+		'stylesheet' => '../../stylesheets/contact.css')
 
 	 );
 
