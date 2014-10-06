@@ -47,7 +47,7 @@
   <li>Getting Started Page?</li>
     <ul>
       <li>"What is Software Development?"</li>
-      <li>Resources for beginners<li>
+      <li>Resources for beginners</li>
     </ul>
   <li>Login Function</li>
   <li>Footer</li>
@@ -57,6 +57,6 @@
     </ul>
   <li>Database Functionality</li>
     <ul>
-      <li>-->James needs to write this part<--</li>
+      <li>-->James needs to write this part</li>
     </ul>
 </ul>
