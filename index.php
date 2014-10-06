@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/inc_header.css"> <!--Header Stylesheet-->
 	<link rel="stylesheet" type="text/css" href="stylesheets/pageConstruction.css"> <!-- 404/underConstruction Stylesheet-->
 	<?php getCSS($pages, $pageNum); ?> <!--Body Stylesheet-->
-	<script type="text/javascript" src="includes/reflex.js"></script> <!--javascript for reflections-->
 	
 
 	<title><?php getTitle($pageNum); ?></title>
