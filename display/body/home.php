@@ -11,7 +11,7 @@
 						<p>Develop software with other students</p>
 					</td>
 					<td>
-						<img src="display/body/images/software.png" alt="software"/>
+						<img src="media/images/software.png" alt="software"/>
 					</td>
 				</tr>
 			</table>
@@ -21,10 +21,10 @@
 			<table width="100%">
 				<tr>
 					<td>
-						<img src="display/body/images/git-logo.png" alt="git-logo"/>
+						<img src="media/images/git-logo.png" alt="git-logo"/>
 					</td>
 					<td>
-						<img src="display/body/images/git-branch.png" alt="git-branch"/>
+						<img src="media/images/git-branch.png" alt="git-branch"/>
 					</td>
 				</tr>
 				<tr>
@@ -39,7 +39,7 @@
 			<table width="100%">
 				<tr>
 					<td>
-						<img src="display/body/images/languages.png" alt="languages"/>
+						<img src="media/images/languages.png" alt="languages"/>
 					</td>
 				</tr>
 				<tr>
