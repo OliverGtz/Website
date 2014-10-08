@@ -5,24 +5,27 @@
 	width: 100%;
 	height: 20%;
 	text-align: center; 
-	background-color: rgb(225, 225, 225);
+	background-color: #ede8de;
+	color:			 	#303850;
 	border: 1px solid black; 
-	border-radius: 5px;
+	/* border-radius: 5px; <-- dont need it*/
 	letter-spacing: 2px;
+	-webkit-font-smoothing: antialiased; /* <-- TODO  smoothing font*/
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 #header h1
 {
-	font-size: 2em;
-	margin-top: 0px;
-	margin-bottom: 1%;
-	padding-top: 0px;
+	font-size: 		2em;
+	margin-top: 	0px;
+	margin-bottom: 	1%;
+	padding-top: 	0px;
 	padding-bottom: 0px;
 }
 #header h3
 {
-	margin-top: 1%;
-	margin-bottom: 0px;
-	padding-top: 0px;
+	margin-top: 	1%;
+	margin-bottom: 	0px;
+	padding-top: 	0px;
 	padding-bottom: 0px;
 }
 #header .pure-menu
@@ -31,15 +34,52 @@
 }
 #header .pure-menu ul
 {
-	width: 100%;
+	font-family: 	junegull;
+	width: 			100%;
+	color:			#fffbec;
 }
 #header .pure-menu li
 {
-	width: 25%;
-	font-size: 1.5em;
-	background-color: rgb(190, 190, 190);
+	width: 				25%;
+	font-size: 			1.6em;
+	background-color: 	#303850;
 }
-#header .pure-menu-selected
+/* fenrirAB anchor: unhover, hover */
+#header .pure-menu li a
 {
-	color: white;
+	color:	#fffbec;
 }
+#header .pure-menu li:hover a::before
+{
+	content: ">>";
+}
+#header .pure-menu li a:hover
+{
+	background-color: #66cded;
+
+}
+#header .pure-menu li:hover a::after
+{
+	content: "<<";
+}
+#header .pure-menu-selected /* what does this do? */
+{
+	color: red;	
+}
+
+#header-logo 
+{
+	position: 	absolute;
+	top:		0px;
+	left: 		10px;
+
+	width: 		7%;
+	height: 	14%;
+}
+
+@font-face {
+  font-family: junegull;
+  src: url('../media/fonts/junegull.ttf'); /* IE9 Compat Modes */
+  src: url('../media/fonts/junegull.ttf') format('truetype'); /* web standard */
+}
+/* end of fenrirAB contribution */

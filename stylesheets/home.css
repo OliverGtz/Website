@@ -1,35 +1,35 @@
 #home
 {
-	height: 100%;
-	letter-spacing: 1px;
-	color: white;
-	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-17.jpg");
-	background-repeat: repeat-y;
-	background-size: auto%;
+	height: 			100%;
+	letter-spacing: 	1px;
+	color: 				white;
+	background-image: 	url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-17.jpg");
+	background-repeat: 	repeat-y;
+	background-size: 	auto%;
 }
 .pure-g
 {
-	letter-spacing: 1px;
+	letter-spacing: 	1px;
 }
 #home #centerdiv
 {
-	height: 100%;
-	padding-right: 5px;
-	padding-left: 5px;
-	background-color: rgba(0, 0, 0, .6);
-	z-index: 2;
-	text-align: center;
-	font-family: "Times New Roman", Times, serif;
+	height: 			100%;
+	padding-right: 		5px;
+	padding-left: 		5px;
+	background-color: 	rgba(0, 0, 0, .6);
+	z-index: 			2;
+	text-align: 		center;
+	font-family: 		"Times New Roman", Times, serif;
 }
 #home p
 {
-	text-indent: 50px;
-	background-color: rgba(0,0,0 .3);
-	float: left;
+	text-indent: 		50px;
+	background-color: 	rgba(0,0,0 .3);
+	float: 				left;
 }
 #tables
 {
-	max-width: 800px;
+	max-width: 	800px;
 	margin-top: 5%;
 }
 table, th, td
@@ -38,12 +38,12 @@ table, th, td
 }
 td
 {
-	height: 10%;
-	width: 10%;
-	font-size: 3vw;
+	height: 	10%;
+	width: 		10%;
+	font-size: 	3vw;
 }
 img
 {
-	width: 70%;
-	height: auto;
+	width: 		70%;
+	height: 	auto;
 }
