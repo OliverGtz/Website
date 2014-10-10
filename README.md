@@ -34,7 +34,7 @@
   </ul>
 <li>Projects Page</li>
   <ul>
-    <li>Easily Updatale "blog"</li>
+    <li>Easily Updatable "blog"</li>
       <ul>
         <li>Images, Text, Links, etc.</li>
         <li>Comments?</li>
