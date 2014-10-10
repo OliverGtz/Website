@@ -27,4 +27,7 @@ WHY HAVE A GUIDELINE?
 * USE HEX for colour code except when:
 	* rgba(0, 0, 0, 0.5); when need alpha channel
 	* red 	for DEBUGGING
-* DO NOT USE CONSTANT DEFINED COLOURS!
+* DO NOT USE WORD DEFINED COLOURS!
+* USE LOCAL URLs
+	|-> WHY? So that we do not rely on THIRD PARTY LINKS and
+	|-> prevents broken links

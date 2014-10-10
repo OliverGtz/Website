@@ -21,10 +21,10 @@
 			<table width="100%">
 				<tr>
 					<td>
-						<img src="media/images/git-logo.png" alt="git-logo"/>
+						<img id="homeImage" src="media/images/git-logo.png" alt="git-logo"/>
 					</td>
 					<td>
-						<img src="media/images/git-branch.png" alt="git-branch"/>
+						<img id="homeImage" src="media/images/git-branch.png" alt="git-branch"/>
 					</td>
 				</tr>
 				<tr>
@@ -39,7 +39,7 @@
 			<table width="100%">
 				<tr>
 					<td>
-						<img src="media/images/languages.png" alt="languages"/>
+						<img id="homeImage" src="media/images/languages.png" alt="languages"/>
 					</td>
 				</tr>
 				<tr>
