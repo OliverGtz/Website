@@ -1,0 +1,33 @@
+TEXT WRAPPING BASED ON SUBLIME TEXT EDITOR TABBING
+
+WHY HAVE A GUIDELINE?
+	This will help us have a common ground on structuring our code
+	to have better understanding and legibility... trust, when the code
+	becomes 300+ line, it's going to get harder to read
+
+* Use comment line(s) to create a brief description of the contribution.
+* add class AND id attributes on HTML tags to be use on css whenever possible:
+	|-> use hungarianStyleNamingConvension
+	|-> use discriptive name such as: contactButton, loginTextField
+	|-> WHY? this way we have FULL CONTROL on what to edit.
+* TAB! TAB! TAB!
+	|-> indent your code
+	|-> tab your propeties and values in alignment with other grouped properties
+	|-> sample:
+			body
+			{
+				float:			right;
+				border-radius 	2em;
+			}
+			body a 
+			{
+				text-align:			left;
+				background-images:	url('location/of/image.png');
+			}
+* USE HEX for colour code except when:
+	* rgba(0, 0, 0, 0.5); when need alpha channel
+	* red 	for DEBUGGING
+* DO NOT USE WORD DEFINED COLOURS!
+* USE LOCAL URLs
+	|-> WHY? So that we do not rely on THIRD PARTY LINKS and
+	|-> prevents broken links

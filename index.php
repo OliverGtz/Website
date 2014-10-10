@@ -5,8 +5,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Pure-CSS mobile view-->
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"> <!--Pure-CSS main code-->
-	<link rel="stylesheet" type="text/css" href="stylesheets/inc_header.css"> <!--Header Stylesheet-->
-	<link rel="stylesheet" type="text/css" href="stylesheets/pageConstruction.css"> <!-- 404/underConstruction Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css"> <!-- MAIN STYLESHEET -->
 	<?php getCSS($pages, $pageNum); ?> <!--Body Stylesheet-->
 	
 
