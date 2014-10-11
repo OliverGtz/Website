@@ -43,17 +43,17 @@ function getBody($pages, $pageNum)
 	
 function getNav()
 	{
-		
-	global $pages;
-	global $currentPage;
- 	      foreach($pages as $page)
-       {
 
- 		 echo (($currentPage === $page['page']) ? "<li class=\"pure-menu-selected\"><a href =\"?page=".$page['page']." \">
-		 <u>".$page['page']."</a></u></li>" :
- 		          "<li><a href =\"?page=".$page['page']." \">".$page['page']."</a></li>");   
-       }
-       
+		global $pages;
+		global $currentPage;
+
+		foreach($pages as $page)
+		{
+			echo (($currentPage === $page['page']) ? "<li class=\"pure-menu-selected\"><a href =\"?page=".$page['page']." \">
+			<u>".$page['page']."</a></u></li>" :
+			"<li><a href =\"?page=".$page['page']." \">".$page['page']."</a></li>");   
+		}
+
 	}
     
 
