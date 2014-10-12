@@ -30,7 +30,15 @@ function getBody($pages, $pageNum)
 */
  function getCSS($pages, $pageNum)
 	{
-		echo ("<link rel=\"stylesheet\" href=\"".BODYPATH.$pages[$pageNum]['stylesheet']."\">");
+		global $currentPage;
+		/* fenrirAB Edit */
+		$pnf404 = 
+			($currentPage == "404") ? 
+				("<link rel=\"stylesheet\" href=\"./stylesheets/pageConstrution.php\">") : 
+				("<link rel=\"stylesheet\" href=\"".BODYPATH.$pages[$pageNum]['stylesheet']."\">");
+
+		echo $pnf404;
+		
 	}
 	
 function getNav()
@@ -46,7 +54,7 @@ function getNav()
  		          "<li><a href =\"?page=".$page['page']." \">".$page['page']."</a></li>");   
        }
        
-       	}
+	}
     
 
 
