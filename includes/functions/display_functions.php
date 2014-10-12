@@ -27,20 +27,21 @@ function getBody($pages, $pageNum)
  Author: Aaron Clark
  Description: echos out a CSS include tag for the current page's stylesheet.
  Parameters: $pages (array containing page information), $pageNum (current page number)	
-*/
+
  function getCSS($pages, $pageNum)
 	{
 		global $currentPage;
-		/* fenrirAB Edit */
-		$pnf404 = 
-			($currentPage == "404") ? 
+		/* fenrirAB Edit 
+		$css = 
+			($currentPage === "404") ? 
 				("<link rel=\"stylesheet\" href=\"./stylesheets/pageConstrution.php\">") : 
 				("<link rel=\"stylesheet\" href=\"".BODYPATH.$pages[$pageNum]['stylesheet']."\">");
 
-		echo $pnf404;
+		echo $css;
 		
 	}
-	
+	Let's keep one stylesheet
+	*/
 function getNav()
 	{
 

@@ -1,5 +1,5 @@
 <?php 
-
+defined('SECURE') or define('SECURE', FALSE);
 if(SECURE)
 {
 
@@ -15,6 +15,11 @@ define('INCLUDEPATH', '/includes/');
 define('FUNCPATH', INCLUDEPATH.'functions/');
 define('BADREQUEST', BODYPATH.'404.php');
 define('METAFILE', VIEWPATH.'meta.php');
+define('CSSPATH', VIEWPATH.'css/');
+define('MEDIA', VIEWPATH.'media/');
+define('IMAGES', MEDIA.'images/');
+define('JAVASCRIPT', VIEWPATH.'js/');
+define('HEADFILE', INCLUDEPATH.'head.php');
 define('DBUSERNAME', "");
 define('DBPASSWORD', "");
 define('DBHOST', "");

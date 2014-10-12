@@ -1,1 +1,1 @@
-<img id="underConstruction" src="./media/images/404pnf.png" />
+<img id="underConstruction" src="display/media/images/404pnf.png" />
