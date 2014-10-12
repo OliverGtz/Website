@@ -22,7 +22,7 @@
 			<br />
 			<br />
 			<div id="languages-funny-div">
-			<img id"aboutImage" src="media/images/languages_funny.jpg" alt="languages_funny">
+			<img id"aboutImage" src="display/media/images/languages_funny.jpg" alt="languages_funny">
 			</div>
 	</div>
 	<div class="pure-u-3-24">
