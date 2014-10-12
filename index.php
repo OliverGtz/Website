@@ -8,7 +8,7 @@
 	background-image: url("");
 	background-repeat: repeat-y;
 	background-size: auto%;">
-<?php include ("display\body\inc_header.html"); ?>
+<?php include ("display\body\mainHeader.html"); ?>
 <?php getBody($pages, $pageNum); ?>
 </body>
 </html>
