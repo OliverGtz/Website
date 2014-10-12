@@ -18,10 +18,9 @@
 			<br />
 			<br />
 			<br />			
+			<hr>
 			<br />
 			<br />
-		</strong>
-		</center>
 			<div id="languages-funny-div">
 			<img src="media/images/languages_funny.jpg" alt="languages_funny">
 			</div>

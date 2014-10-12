@@ -8,7 +8,7 @@
 			<table width="100%">
 				<tr>
 					<td>
-						<p class="tablep">Develop software with other students</p>
+						<p>Develop software with other students</p>
 					</td>
 					<td>
 						<img src="media/images/software.png" alt="software"/>
@@ -29,7 +29,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" text-align="center">
-						<p class="tablep">Use industry standard collaboration tools</p>
+						<p>Use industry standard collaboration tools</p>
 					</td>
 				</tr>
 			</table>
@@ -44,7 +44,7 @@
 				</tr>
 				<tr>
 					<td>
-						<p class="tablep">Solidify your skills and learn new languages</p>
+						<p>Solidify your skills and learn new languages</p>
 					</td>
 				</tr>
 			</table>
