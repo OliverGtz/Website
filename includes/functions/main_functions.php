@@ -9,7 +9,7 @@ Comment code appropriately. Also, include your name for each function.
 
 */
 
-
+// Moe-code
 function pageExist($input, $pages, $typeCheck = true)
  {
 
@@ -28,7 +28,7 @@ function pageExist($input, $pages, $typeCheck = true)
 
 
 
-// James Luevano 09/27/14
+// Moe-code 
 function getFilepath($validPage)
 	{ 
 		global $pages; // get existing array
@@ -46,7 +46,7 @@ function getFilepath($validPage)
 			// else IF no match, return 404 page.
 		return BODYPATH.'404.php';
 	}
-
+// Moe-code 
 function getPageNum($validPage)
 	{ 
 		global $pages; // get existing array
@@ -55,7 +55,7 @@ function getPageNum($validPage)
 		 $x = 0;
 		foreach ($pages as $page) 
 			{
-				if($page['page'] == $validPage)
+				if($page['page'] === $validPage)
 				{
 					return $x;
 				}
@@ -65,13 +65,13 @@ function getPageNum($validPage)
 		return 404;
 	}
 
-
+// Moe-code 
 function returnPage()
 	{	
 		// Get pages array and calculate
 		global $pages;
-		return ((isset($_GET['page'])) ? (pageExist($_GET['page'], $pages, true) ? 
-				ucfirst(strtolower($_GET['page'])) : '404' ) : 'Home');
+		return ((isset($_GET['page'])) ? (pageExist(htmlspecialchars($_GET['page']), $pages, true) ? 
+				ucfirst(strtolower(htmlspecialchars($_GET['page']))) : '404' ) : 'Home');
 		
 	}
 

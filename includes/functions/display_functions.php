@@ -27,33 +27,34 @@ function getBody($pages, $pageNum)
  Author: Aaron Clark
  Description: echos out a CSS include tag for the current page's stylesheet.
  Parameters: $pages (array containing page information), $pageNum (current page number)	
-*/
+
  function getCSS($pages, $pageNum)
 	{
 		global $currentPage;
-		/* fenrirAB Edit */
-		$pnf404 = 
-			($currentPage == "404") ? 
+		/* fenrirAB Edit 
+		$css = 
+			($currentPage === "404") ? 
 				("<link rel=\"stylesheet\" href=\"./stylesheets/pageConstrution.php\">") : 
 				("<link rel=\"stylesheet\" href=\"".BODYPATH.$pages[$pageNum]['stylesheet']."\">");
 
-		echo $pnf404;
+		echo $css;
 		
 	}
-	
+	Let's keep one stylesheet
+	*/
 function getNav()
 	{
-		
-	global $pages;
-	global $currentPage;
- 	      foreach($pages as $page)
-       {
 
- 		 echo (($currentPage === $page['page']) ? "<li class=\"pure-menu-selected\"><a href =\"?page=".$page['page']." \">
-		 <u>".$page['page']."</a></u></li>" :
- 		          "<li><a href =\"?page=".$page['page']." \">".$page['page']."</a></li>");   
-       }
-       
+		global $pages;
+		global $currentPage;
+
+		foreach($pages as $page)
+		{
+			echo (($currentPage === $page['page']) ? "<li id=\"navList\"><a id=\"navLinks\" href =\"?page=".$page['page']." \">
+			<u>".$page['page']."</a></u></li>" :
+			"<li id=\"navList\"><a id=\"navLinks\" href =\"?page=".$page['page']." \">".$page['page']."</a></li>");  
+		}
+
 	}
     
 
