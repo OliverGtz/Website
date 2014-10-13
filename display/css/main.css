@@ -9,16 +9,19 @@
 /* END OF BODY STYLESHEET */
 
 /* HOME STYLESHEET */
-#home {
-	height: 			100%;
-	letter-spacing: 	1px;
-	color: 				white;
-/*	background-image: 	url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-17.jpg");*/
-	background-color:  #0026E6;
-    background-repeat: 	repeat-y;
-	background-size: 	auto%;
+
+.sliderContainer {
+	width: 				100%;
+	padding: 			0px;
+	border: 			1px solid gray;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:	border-box;
+	box-sizing: 		border-box;
+	text-align: 		center;
 }
-#home #centerdiv {
+.sliderWrapper {
+	overflow: 			hidden;
+	position: 			relative;
 	height: 			100%;
 	padding-right: 		5px;
 	padding-left: 		5px;
@@ -26,28 +29,118 @@
 	z-index: 			2;
 	text-align: 		center;
 	font-family: 		"Times New Roman", Times, serif;
+	top: 				auto;
 }
-#home p {
-	text-indent: 		50px;
-	background-color: 	rgba(0,0,0 .3);
+#imageSlider {
+	position: 			relative;
+	height: 			auto;
+	list-style:			none;
+	overflow: 			hidden;
+	float: 				left;
+	padding: 			0px;
+	margin: 			0px;
+}
+#imageSlider li {
+	position: 			relative;
+	float: 				left;
+	padding: 			0px;
+	margin: 			0px;
+}
+.nvgt {
+	position: 			absolute;
+	top: 				0;
+	height: 			100%;
+	width: 				100px;
+	opacity: 			0.1;
+}
+.nvgt:hover {
+	opacity: 			0.5;
+}
+#prev {
+	background: 		#000 /*url('') no-repeat center*/;
+	left: 				0px;
+}
+#next {
+	background: 		#000 /*url('') no-repeat center*/;
+	right: 				0px;
+}
+#pager {
+	padding: 			0px;
+	position: 			absolute;
+	top:				5%;
+	left: 				36%;
+	z-index: 			2;
+	height: 			50px;
+	width: 				30%;
+	margin: 			auto;
+	margin-top: 		10px;
+
+}
+#pager li {
+	padding: 			0px;
+	margin: 			1%;
+	background: 		rgba(0,0,0,.5);
+	border: 			1px solid black;
+	color: 				white;
+	list-style: 		none;
+	opacity: 			0.6;
+	float: 				left;
+	border-radius: 		50%;
+	cursor: 			pointer;
+}
+=======
+#imageSlider li {
+	position: 			relative;
 	float: 				left;
 }
-#tables {
-	max-width: 	800px;
-	margin-top: 5%;
+.nvgt {
+	position: 			absolute;
+	top: 				0;
+	height: 			100%;
+	width: 				100px;
+	opacity: 			0.1;
 }
-table, th, td {
-	text-align: center;
+.nvgt:hover {
+	opacity: 			0.5;
 }
-td {
-	height: 	10%;
-	width: 		10%;
-	font-size: 	3vw;
+#prev {
+	background: 		#000 /*url('') no-repeat center*/;
+	left: 				0px;
 }
-#homeImage {
-	width: 		70%;
-	height: 	auto;
+#next {
+	background: 		#000 /*url('') no-repeat center*/;
+	right: 				0px;
 }
+#pager {
+	padding: 			0px;
+	position: 			absolute;
+	top:				5%;
+	left: 				36%;
+	z-index: 			2;
+	height: 			50px;
+	width: 				30%;
+	margin: 			auto;
+	margin-top: 		10px;
+
+}
+#pager li {
+	padding: 			0px;
+	margin: 			1%;
+	background: 		rgba(0,0,0,.5);
+	border: 			1px solid black;
+	color: 				white;
+	list-style: 		none;
+	opacity: 			0.6;
+	float: 				left;
+	border-radius: 		50%;
+	cursor: 			pointer;
+}
+>>>>>>> origin/master
+#pager li:hover {
+	opacity: 			0.9;
+}
+
+
 /* END OF HOME STYLESHEET */
 
 /* PROJECT STYLESHEET */
