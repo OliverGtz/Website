@@ -1,57 +1,21 @@
 <div class="pure-g" id="home">
-	<div class="pure-u-3-24">
-	</div>
-	<div class="pure-u-18-24" id="centerdiv">
-		<center>
-		<strong>
-			<div id="tables">
-			<table width="100%">
-				<tr>
-					<td>
-						<p>Develop software with other students</p>
-					</td>
-					<td>
-						<img src="display/media/images/software.png" alt="software"/>
-					</td>
-				</tr>
-			</table>
-			<br />
-			<hr>
-			<br />
-			<table width="100%">
-				<tr>
-					<td>
-						<img id="homeImage" src="display/media/images/git-logo.png" alt="git-logo"/>
-					</td>
-					<td>
-						<img id="homeImage" src="display/media/images/git-branch.png" alt="git-branch"/>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" text-align="center">
-						<p>Use industry standard collaboration tools</p>
-					</td>
-				</tr>
-			</table>
-			<br />
-			<hr>
-			<br />
-			<table width="100%">
-				<tr>
-					<td>
-						<img id="homeImage" src="display/media/images/languages.png" alt="languages"/>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<p>Solidify your skills and learn new languages</p>
-					</td>
-				</tr>
-			</table>
+		<div class="sliderContainer">
+			<ul id="pager">
+			</ul>
+			<div class="sliderWrapper">
+				<ul id="imageSlider">
+					<li>
+						<img src="display/media/images/thai.jpg" id="sliderImage1">
+					</li>
+					<li>
+						<img src="display/media/images/pancakes.jpg" id="sliderImage2">
+					</li>
+					<li>
+						<img src="display/media/images/shrimp.jpg" id="sliderImage3">
+					</li>
+				</ul>
+				<span class="nvgt" id="prev"></span>
+				<span class="nvgt" id="next"></span>
 			</div>
-		 </strong>
-		 </center>
-	 </div>
-	 <div class="pure-u-3-24">
-	 </div>
- </div>
+		</div>
+</div>

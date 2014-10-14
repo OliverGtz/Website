@@ -44,6 +44,7 @@ html, body {
 	width: 				100%;
 	min-width: 			50%;
 	background-color: 	rgba(0, 0, 0, 0.60); /*will transform on headerScript.js*/
+	z-index:			5;
 }
 #mainNav {
 	font-family: 	Liberation;	
