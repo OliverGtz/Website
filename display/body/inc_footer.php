@@ -12,7 +12,6 @@
 	 </div>
 </div>
 
-
 <div class="pure-g">
 	<div class="pure-u-1 pure-u-sm-3-24">
 	</div>
