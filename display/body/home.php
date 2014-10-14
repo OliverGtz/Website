@@ -5,7 +5,7 @@
 			<div class="sliderWrapper">
 				<ul id="imageSlider">
 					<li>
-						<img src="display/media/images/thai.jpg" id="sliderImage1">
+						<img src="display/media/images/matrix.jpg" id="sliderImage1">
 					</li>
 					<li>
 						<img src="display/media/images/pancakes.jpg" id="sliderImage2">
