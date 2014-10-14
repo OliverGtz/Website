@@ -24,6 +24,8 @@
 			<div id="languages-funny-div">
 			<img id="aboutImage" src="display/media/images/languages_funny.jpg" alt="languages_funny">
 			</div>
+		</strong>
+		</center>
 	</div>
 	<div class="pure-u-3-24">
 	</div>

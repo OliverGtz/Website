@@ -32,7 +32,7 @@
 				<input class="pure-button" id="link" type="submit" value="E-mail Our Webmaster" />
 			</form>
 		</div>		
-		<div style="height: 200px;">
+		<div style="height: 200px;"></div>
 	</div>
 	<div class="pure-u-3-24">
 	</div>
