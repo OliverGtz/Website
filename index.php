@@ -10,5 +10,6 @@
 	background-size: auto%;">
 <?php include ("display\body\mainHeader.html"); ?>
 <?php getBody($pages, $pageNum); ?>
+<?php include ("display\body\inc_footer.php"); ?>
 </body>
 </html>
