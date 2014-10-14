@@ -1,13 +1,16 @@
 //TODO fenrirAB - awwwwww yeeeeaaaahhhh!
 $(window).scroll(function() {
-	if($(this).scrollTop() > 350) {
-		$("#headerID").css('background-color', '#000000');
+	if($(this).scrollTop() > 40) {
+		$("#headerID").css('background-color', 'rgba(0,0,0,.8)');
 	//	$("#headerID").fadeTo("slow", 1.00);
+	//when you scroll down
+	
 	}
 	else {
 		console.log('there');
-		$("#headerID").css('background-color', 'rgba(0, 0, 0, 0.60)');
+		$("#headerID").css('background-color', 'rgba(0,0,0,0.0)');
 	//	$("#headerID").fadeTo("slow", 0.60);
+	//when you scroll up
 	}
 });
 
