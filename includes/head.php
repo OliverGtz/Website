@@ -8,12 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo CSSPATH."main.css"?>"> <!-- MAIN STYLESHEET -->
 
 	<!-- Start of responsive css from purecss.io -->
- 	<!--[if lte IE 8]>
-    	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-	<![endif]-->
-	<!--[if gt IE 8]><!-->
-    	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-	<!--<![endif]-->
+	 	<!--[if lte IE 8]>
+	    	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+		<![endif]-->
+		<!--[if gt IE 8]><!-->
+	    	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+		<!--<![endif]-->
 	<!-- End of responsive css -->
 
 	<script type="text/javascript" src="<?php echo JAVASCRIPT."jquery-2.1.1.min.js"?>"></script>
