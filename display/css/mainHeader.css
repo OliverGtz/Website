@@ -43,7 +43,9 @@ html, body {
    	margin: 			auto;
 	width: 				100%;
 	min-width: 			50%;
-	background-color: 	rgba(0, 0, 0, 0.60); /*will transform on headerScript.js*/
+	background-color: 	rgba(0, 0, 0, 0.0); /*will transform on headerScript.js*/
+	transition: all 1s;
+	z-index:			5;
 }
 #mainNav {
 	font-family: 	Liberation;	
