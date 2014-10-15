@@ -19,11 +19,12 @@ footer{
     background: 		rgba(0,0,0,.6);
     color:				#FFF;
     z-index:			3;
+    -moz-translation:   height .7s;
     -webkit-transition:	height .7s;
-    transition:			height .7s;
+    transition:			height .8s;
 }
 footer:hover{
-    height:				195px;
+    height:				30%;
 }
 footer p{
     margin:				0;
@@ -73,7 +74,7 @@ body{
 .sliderContainer {
 	width: 				100%;
 	padding: 			0px;
-	border: 			1px solid gray;
+	/*border: 			1px solid gray;*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing:	border-box;
 	box-sizing: 		border-box;
@@ -83,8 +84,6 @@ body{
 	overflow: 			hidden;
 	position: 			relative;
 	height: 			100%;
-	padding-right: 		5px;
-	padding-left: 		5px;
 	/*background-color: rgba(0, 0, 0, .6);*/
 	z-index: 			2;
 	text-align: 		center;
@@ -136,7 +135,6 @@ body{
 }
 #pager li {
 	padding: 			0px;
-	margin: 			1%;
 	background: 		rgba(0,0,0,.5);
 	border: 			1px solid black;
 	color: 				white;
@@ -163,15 +161,15 @@ body{
 	height: 			100%;
 	letter-spacing: 	1px;
 	color: 				#fffbec;
-	background-image: 	url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-17.jpg");
+	/*background-image: 	url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-17.jpg");
 	background-repeat: 	repeat-y;
-	background-size: 	auto%;
+	background-size: 	auto%;*/
 }
 #about #centerdiv {
 	height: 			100%;
 	padding-right: 		5px;
 	padding-left: 		5px;
-	background-color: 	rgba(0, 0, 0, .6);
+	/*background-color: 	rgba(0, 0, 0, .6);*/
 	z-index: 			2;
 	text-align: 		center;
 	font-family: 		"Times New Roman", Times, serif;
@@ -195,16 +193,12 @@ body{
 #contact {
 	height: 			100%;
 	letter-spacing: 	1px;
-	background-size: 	auto;
     color:              red;
-    background-image:   url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-17.jpg");
-    background-repeat:  repeat-y;
 }
 #contact #centerdiv {
 	height: 			100%;
 	padding-right: 		5px;
 	padding-left: 		5px;
-	background-color: 	rgba(0, 0, 0, .6);
 	z-index: 			2;
 	text-align: 		center;
 	font-family: 		"Times New Roman", Times, serif;
