@@ -156,25 +156,24 @@ body{
 	/* TODO stylesheet here... */
 /* END OF PROJECT STYLESHEET */
 
-/* ABOUT STYLESHEET */
-#about {
+
+#about, #contact,  {
 	height: 			100%;
 	letter-spacing: 	1px;
 	color: 				#fffbec;
-	/*background-image: 	url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-17.jpg");
-	background-repeat: 	repeat-y;
-	background-size: 	auto%;*/
+
 }
-#about #centerdiv {
+#centerdiv {
 	height: 			100%;
 	padding-right: 		5px;
 	padding-left: 		5px;
-	/*background-color: 	rgba(0, 0, 0, .6);*/
+	background-color: 	rgba(0, 0, 0, .6);
 	z-index: 			2;
 	text-align: 		center;
 	font-family: 		"Times New Roman", Times, serif;
+	color: 				#FFFFFF;
 }
-#about p {
+p {
 	text-indent: 		50px;
 	background-color: 	rgba(0,0,0 .3);
 	float: 				left;
@@ -186,26 +185,6 @@ body{
 #aboutImage {
 	width: 	100%;
 	height: auto;
-}
-/* END OF ABOUT STYLESHEET */
-
-/* CONTACT STYLESHEET */
-#contact {
-	height: 			100%;
-	letter-spacing: 	1px;
-    color:              red;
-}
-#contact #centerdiv {
-	height: 			100%;
-	padding-right: 		5px;
-	padding-left: 		5px;
-	z-index: 			2;
-	text-align: 		center;
-	font-family: 		"Times New Roman", Times, serif;
-}
-#contact p {
-	text-indent: 		50px;
-	background-color: 	rgba(0,0,0 .3);
 }
 #buttonDiv {
 	width: 		100%;
