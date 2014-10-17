@@ -5,13 +5,13 @@
 		<div class="sliderWrapper">
 			<ul id="imageSlider">
 				<li>
-					<img src="display/media/images/matrix.jpg" id="sliderImage1">
+					<img src="display/media/images/background1.png" id="sliderImage1">
 				</li>
 				<li>
-					<img src="display/media/images/pancakes.jpg" id="sliderImage2">
+					<img src="display/media/images/background2.png" id="sliderImage2">
 				</li>
 				<li>
-					<img src="display/media/images/shrimp.jpg" id="sliderImage3">
+					<img src="display/media/images/background3.png" id="sliderImage3">
 				</li>
 			</ul>
 			<span class="nvgt" id="prev"></span>
