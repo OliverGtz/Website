@@ -17,7 +17,8 @@
 	<!-- End of responsive css -->
 
 	<script type="text/javascript" src="<?php echo JAVASCRIPT."jquery-2.1.1.min.js"?>"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."jsFunctions.js"?>"></script>	
+	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."jsFunctions.js"?>"></script>
+	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."pageNotFound.js"?>"></script>	
 
 	<title><?php getTitle($pageNum); ?></title>  		  
 </head>
