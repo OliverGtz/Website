@@ -58,6 +58,9 @@ footer ul li{
         width:			100%;
     }
 }
+footer #msg{
+    resize: none;
+}
 /* END OF FOOTER STYLESHEET */
 
 /* HOME STYLESHEET */

@@ -14,6 +14,7 @@ $(window).scroll(function() {
 	}
 });
 
+
 //Image Slider
 //Written by Aaron Clark
 

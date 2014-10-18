@@ -42,22 +42,26 @@ function getBody($pages, $pageNum)
 	}
 	Let's keep one stylesheet
 	*/
+
 function getNav()
 	{
 
 		global $pages;
 		global $currentPage;
+		global $idNumber;
 
+		$idNumber = 1; // IMPORTANT! ID incrementer for navList id!
 		foreach($pages as $page)
 		{
-			echo (($currentPage === $page['page']) ? "<li id=\"navList\"><a id=\"navLinks\" href =\"?page=".$page['page']." \">
-			<u>".$page['page']."</a></u></li>" :
-			"<li id=\"navList\"><a id=\"navLinks\" href =\"?page=".$page['page']." \">".$page['page']."</a></li>");  
+			echo (($currentPage === $page['page']) ? 
+				"<li class=\"navListClass\" id=\"navList".$idNumber++."\">
+					<a id=\"navLinks\" href=\"?page=".$page['page']."\">".$page['page'].
+					"</a></li>" :
+				"<li class=\"navListClass\" id=\"navList".$idNumber++."\">
+					<a id=\"navLinks\" href=\"?page=".$page['page']."\">".$page['page'].
+					"</a></li>");  
 		}
-
 	}
-    
-
 
  function getMeta()
  	{
