@@ -542,8 +542,13 @@
     animation: "fade",              //String: Select your animation type, "fade" or "slide"
     slideDirection: "horizontal",   //String: Select the sliding direction, "horizontal" or "vertical"
     slideshow: true,                //Boolean: Animate slider automatically
+<<<<<<< HEAD
     slideshowSpeed: 3000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
     animationDuration: 300,         //Integer: Set the speed of animations, in milliseconds
+=======
+    slideshowSpeed: 3500,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+    animationDuration: 600,         //Integer: Set the speed of animations, in milliseconds
+>>>>>>> temp
     directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)
     controlNav: false,               //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
     keyboardNav: true,              //Boolean: Allow slider navigating via keyboard left/right keys

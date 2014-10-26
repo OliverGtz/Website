@@ -7,6 +7,9 @@
     height:				5000px;
     background-color: 	red;
 }
+div * {
+	border: 1px dotted red;
+}
 /* KEEP ABOVE CODE CLOSE */
 
 /* RULE SPECIFICATIONS */
@@ -28,14 +31,10 @@ html, body {
 	background-size: cover;
 }
 
-div * {
-/*	border: 1px dotted red;*/
-}
-
 /* PAGE NOT FOUND && UNDER CONSTRUCTION STYLESHEET */
 #pageNotFound{
 	display: 	block;
-	/*width: 		100%;
+/*	width: 		100%;
 	height: 	100%;*/
 
 }
@@ -70,21 +69,28 @@ div * {
 }
 #mainNav #clubName {
 	display: inline-block;
-	padding:		5px 0px 0px 40px; /*trbl*/
+	padding:		0px 0px 0px 40px; /*trbl*/
 	text-align:	 	left;
 	width:			40%;
 	min-width: 		10%;
 	list-style:		none;
 }
+#mainNav #clubLogo{
+	position: 			fixed;	/*adjust position */
+	top: 				5px;
+	transition: 		all 1s;
+	z-index:			5;
+}
 #mainNav #navList1, #navList2, #navList3, #navList4 {
 	display: 		inline-block;
+	margin:			17px 0px 0px 0px;
 	text-align:	 	center;
 	width:			10%;
 	min-width: 		8%;
 	list-style:		none;
 }
 #mainNav #navButton{
-	display: inline;
+	display: inline-block;
 	margin-top: 	-18px; /* is negative px conventional? */
 	margin-right: 	5%;
 	padding:		5px 0px;
