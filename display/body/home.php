@@ -15,7 +15,7 @@
 			</ul>
 		</div>
 	</div>
-</div>-->
+</div>
 
 <div class="" id="home">
 	<div class="sliderContainer">
