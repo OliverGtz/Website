@@ -1,4 +1,4 @@
-<div class="pure-g" id="home">
+<!--<div class="pure-g" id="home">
 	<div class="sliderContainer">
 		<ul id="pager">
 		</ul>
@@ -17,5 +17,15 @@
 			<span class="nvgt" id="prev"></span>
 			<span class="nvgt" id="next"></span>
 		</div>
+	</div>
+</div>-->
+
+<div class="" id="home">
+	<div class="sliderContainer">
+		<div id="slideShow">
+	        <a href="#"><img src="display/media/images/background1.png"/></a>
+	        <a href="#"><img src="display/media/images/background2.png"/></a>
+	        <a href="#"><img src="display/media/images/background3.png"/></a>
+    	</div>
 	</div>
 </div>

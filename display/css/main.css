@@ -8,6 +8,11 @@
 	/* TODO stylesheet here... */
 /* END OF BODY STYLESHEET */
 
+/* SLIDE SHOW TEST */
+#slideShow a{
+    display: none;
+}
+
 /* FOOTER STYLESHEET */
 footer{
     width:				100%;
@@ -29,6 +34,8 @@ footer:hover{
 footer p{
     margin:				0;
     padding:			0;
+    float:              none;
+    text-indent:        0px;
 }
 .minimalisticFooter{
     line-height: 3		0px;
@@ -69,7 +76,7 @@ footer #msg{
 body{
     position:			relative;
 }
-/* END OFGENERAL TAGS*/
+/* END OF GENERAL TAGS*/
 
 
 /* HOME STYLESHEET */
