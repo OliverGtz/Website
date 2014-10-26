@@ -16,6 +16,9 @@
 		<!--<![endif]-->
 	<!-- End of responsive css -->
 
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	
 	<script type="text/javascript" src="<?php echo JAVASCRIPT."jquery-2.1.1.min.js"?>"></script>
 	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."jsFunctions.js"?>"></script>
 	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."pageNotFound.js"?>"></script>	
