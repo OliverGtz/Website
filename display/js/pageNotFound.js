@@ -1,4 +1,4 @@
-function matrixNotFound()
+/*function matrixNotFound()
 {
 
 	var pageNotFound = document.getElementById("pageNotFound");
@@ -48,4 +48,4 @@ function matrixNotFound()
 
 //window.onload = matrixNotFound;
 
-// had trouble running this file but thanks to Aaron's code, the onload worked like a charm
+// had trouble running this file but thanks to Aaron's code, the onload worked like a charm*/
