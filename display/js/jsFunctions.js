@@ -18,3 +18,32 @@ $(window).scroll(function() {
 	}
 });
 
+function slideShow()
+{
+	$(document).ready(function(){
+
+    $("#slideShow a").first().show();
+
+    var count = 0;		//array start at 0
+    var MAX_SLIDES = 2; //array ends at 2 (0, 1, 2)
+
+    function autoSlide() {
+    	//five second delay
+        $("#slideShow a").delay(5000).eq(count).fadeOut(function() { 
+            if (count === MAX_SLIDES){
+                count = -1; // reset to repeat
+            }
+            
+            $("#slideShow a").eq(count+1).fadeIn(function() {
+                count++;
+                autoSlide();
+            });
+        });
+    }
+    autoSlide();
+
+});
+}
+
+// END of fenrirAB
+
