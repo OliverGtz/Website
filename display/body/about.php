@@ -5,9 +5,9 @@ $( "#accordion" ).accordion({ icons: { "header": "ui-icon-plus", "activeHeader":
 </script>
 
 <div class="pure-g" id="about">
-	<div class="pure-u-3-24">
+	<div class="pure-u-md-3-24 pure-u-1-24">
 	</div>
-	<div class="pure-u-18-24" id="centerdiv">
+	<div class="pure-u-md-18-24 pure-u-22-24" id="centerdiv">
 		<center>
 			<hr style="margin-top: 100px;">
 			<h1>About Us</h1>
@@ -123,6 +123,6 @@ $( "#accordion" ).accordion({ icons: { "header": "ui-icon-plus", "activeHeader":
 				</div>
 			</div>
 	</div>
-	<div class="pure-u-3-24">
+	<div class="pure-u-md-3-24 pure-u-1-24">
 	</div>
  </div>
