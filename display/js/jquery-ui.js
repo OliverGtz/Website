@@ -872,7 +872,7 @@ var accordion = $.widget( "ui.accordion", {
 	options: {
 		active: 0,
 		animate: {},
-		collapsible: false,
+		collapsible: true,
 		event: "click",
 		header: "> li > :first-child,> :not(li):even",
 		heightStyle: "auto",
