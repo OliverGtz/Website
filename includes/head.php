@@ -5,8 +5,9 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo CSSPATH."mainHeader.css"?>"> <!-- MAINHEADER STYLESHEET: fenrirAB -->
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"> <!--Pure-CSS main code-->
-	<link rel="stylesheet" type="text/css" href="<?php echo CSSPATH."main.css"?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo CSSPATH."flexslider.css"?>"> 	<!-- MAIN STYLESHEET -->
+	<link rel="stylesheet" type="text/css" href="<?php echo CSSPATH."main.css"?>"><!-- MAIN STYLESHEET -->
+	<link rel="stylesheet" type="text/css" href="<?php echo CSSPATH."flexslider.css"?>"> 
+	<link rel="stylesheet" type="text/css" href="<?php echo CSSPATH."jquery-ui.css"?>"> 		
 
 	<!-- Start of responsive css from purecss.io -->
 	 	<!--[if lte IE 8]>
@@ -24,7 +25,8 @@
 	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."jsFunctions.js"?>"></script>
 	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."pageNotFound.js"?>"></script>	
 	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."jquery.flexslider.js"?>"></script>	
-	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."jquery.flexslider-min.js"?>"></script>	
+	<script language="javascript" type="text/javascript" src="<?php echo JAVASCRIPT."jquery-ui.js"?>"></script>	
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script type="text/javascript">
 		$(window).load(function() {
 			$('.flexslider').flexslider();

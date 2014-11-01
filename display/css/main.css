@@ -5,6 +5,30 @@
 /* END OF GLOBAL CLASS */
 
 /* BODY STYLESHEET*/
+html
+{
+	height: auto;
+	min-height: 100%;
+}
+body{
+    position: relative;
+	height: 100%;
+	min-height: 100vh;
+	margin: 0px;
+	padding: 0px;
+}
+#home, #contact, #about
+{
+	color: 				#fffbec;
+	height: 			100%;
+	min-height: 		100%;
+	margin: 0px;
+	padding: 0px;
+}
+html *
+{
+	/*border: 1px solid blue;*/
+}
 #home * 
 {
 	margin: 0;
@@ -25,13 +49,18 @@
 #home a 
 { 
 	text-decoration: none; 
-	}
+}
 
 #home .clearfix 
 {
 	display: block;
 }
-
+#slider{
+	width:				100%;
+}
+#about{
+	font-size: 1em;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -53,7 +82,7 @@ footer{
     bottom:				0;
     left:				0;
     right:				0;
-    background: 		rgba(0,0,0,.6);
+    background: 		rgba(35,35,35,.97);
     color:				#FFF;
     z-index:			3;
     -moz-translation:   height .7s;
@@ -105,9 +134,7 @@ footer #msg{
 /* HOME STYLESHEET */
 
 /* GENERAL TAGS*/
-body{
-    position:			relative;
-}
+
 /* END OFGENERAL TAGS*/
 
 
@@ -116,17 +143,10 @@ body{
 /* END OF PROJECT STYLESHEET */
 
 
-#about, #contact,  {
-	height: 			100%;
-	letter-spacing: 	1px;
-	color: 				#fffbec;
-
-}
 #centerdiv {
 	height: 			100%;
-	padding-right: 		5px;
-	padding-left: 		5px;
-	background-color: 	rgba(0, 0, 0, .6);
+	min-height:			100vh;
+	background-color: 	rgba(35, 35, 35, 1);
 	z-index: 			2;
 	text-align: 		center;
 	font-family: 		"Times New Roman", Times, serif;
@@ -134,15 +154,16 @@ body{
 }
 p {
 	text-indent: 		50px;
-	background-color: 	rgba(0,0,0 .3);
+	background-color: 	rgba(35,35,35 .3);
 	float: 				left;
 }
 #languages-funny-div {
 	width: 	100%;
 	height: 100%;
+	padding-bottom: 10%;
 }
 #aboutImage {
-	width: 	100%;
+	width: 	75%;
 	height: auto;
 }
 #buttonDiv {
@@ -150,11 +171,20 @@ p {
 }
 #link {
 	width: 400px;
-	background-color: 	#EE3333;
+	background-color: 	#26A9E0;
 	color:			 	#EEEEEE;
 	font-size: 			170%;
 	font-weight: 		bold;
 }
+#map_canvas {
+	margin-top: 		5%;
+	margin-bottom:		10%;
+	margin-right:		auto;
+	margin-left:		auto;
+	width: 				500px;
+	height: 			400px;
+}
+
 /* END OF STYLESHEET */
 
 /*!
@@ -258,10 +288,6 @@ textarea {
 /**
  * Address margins handled incorrectly in IE 6/7.
  */
-
-body {
-    margin: 0;
-}
 
 /* ==========================================================================
    Links
