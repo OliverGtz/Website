@@ -24,6 +24,10 @@ border: none !important;
 .flexslider .slides img{
 width: 100%;
 }
+.flexslider .slides
+{
+	width: 100%;
+}
  
 /* Browser Resets */
 .flex-container a:active,

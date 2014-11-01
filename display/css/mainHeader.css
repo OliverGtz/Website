@@ -24,7 +24,8 @@ html, body {
    	padding: 	0;
   	margin: 	0;
   	font-size: 	100%;
-  	background: url('../media/images/matrix.jpg') no-repeat center center fixed; 
+  	background: url('../media/images/background0.png') no-repeat center center fixed; 
+	background-color: #000000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -50,6 +51,8 @@ html, body {
 #headerID {
 	position: 			fixed;
 	padding: 			0;
+	left:				0px;
+	right:				0px;
    	margin: 			auto;
 	width: 				100%;
 	min-width: 			50%;
@@ -66,6 +69,7 @@ html, body {
 	padding: 	0px 0px 0px 0px;
 	margin: 	0.2em 0em 0.2em 0em;
 	list-style: none outside none;
+	position: 	relative;
 }
 #mainNav #clubName {
 	display: inline-block;
@@ -75,10 +79,10 @@ html, body {
 	min-width: 		10%;
 	list-style:		none;
 }
-#mainNav #clubLogo{
-	position: 			fixed;	/*adjust position */
-	top: 				5px;
-	transition: 		all 1s;
+#mainNav #clubLogo, #clubLogo2{
+	position: 			absolute;	/*adjust position */
+	top: 				0px;
+	left:				0px;
 	z-index:			5;
 }
 #mainNav #navList1, #navList2, #navList3, #navList4 {
@@ -88,21 +92,30 @@ html, body {
 	width:			10%;
 	min-width: 		8%;
 	list-style:		none;
+	float: 			right;
+	font-size:		1.3vw;
 }
 #mainNav #navButton{
 	display: inline-block;
-	margin-top: 	-18px; /* is negative px conventional? */
+	margin-top: 	0px; /* is negative px conventional? */
 	margin-right: 	5%;
 	padding:		5px 0px;
 	width:			10%;
 	min-width: 		8%;
 	list-style:		none;
+	float:			right;
 }
+/*
 .navListClass:hover #navLinks::before{
 	content: ">>";
 }
 .navListClass:hover #navLinks::after{
 	content: "<<";
+}
+*/
+.navListClass:hover #navLinks
+{
+	color: #26A9E0;
 }
 #navLinks:active
 {
@@ -144,13 +157,13 @@ html, body {
 	display:		inline-block;
 	color:			#EEEEEE;
 	border:			1px solid #268a16;
-	width:			180px;
+	width:			170%;
 	height:			48px;
 	line-height:	48px;
 	text-indent:	0;
 
 	font-family: 	Liberation;
-	font-size:		18px;
+	font-size:		2vw;
 	font-weight:	bold;
 	font-style:		normal;
 	text-decoration:none;

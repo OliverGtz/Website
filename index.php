@@ -4,9 +4,7 @@
 
 <?php include(HEADFILE); ?>
 
-<body style="height: 100%;
-	background-repeat: repeat-y;
-	background-size: cover;">
+<body>
 <?php include ("display\body\mainHeader.html"); ?>
 <?php getBody($pages, $pageNum); ?>
 

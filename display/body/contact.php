@@ -1,9 +1,11 @@
+<script>
+google.maps.event.addDomListener(window, 'load', initializeMap);
+</script>
 <div class="pure-g" id="contact">
 	<div class="pure-u-3-24">
 	</div>
 	<div class="pure-u-18-24" id="centerdiv">
-		<br />
-		<br />
+		<hr style="margin-top: 100px;">
 		<br />
 		<br />
 		<div id="buttonDiv">
@@ -31,7 +33,10 @@
 			<form action="MAILTO:olig.333@gmail.com" method="post">
 				<input class="pure-button" id="link" type="submit" value="E-mail Our Webmaster" />
 			</form>
-		</div>		
+		</div>	
+
+		<div id="map_canvas"></div>
+
 	</div>
 	<div class="pure-u-3-24">
 	</div>
