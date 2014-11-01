@@ -84,35 +84,28 @@ html, body {
 	top: 				0px;
 	left:				0px;
 	z-index:			5;
+	width:				35%;
+	max-width:			325px;
 }
 #mainNav #navList1, #navList2, #navList3, #navList4 {
 	display: 		inline-block;
-	margin:			17px 0px 0px 0px;
+	margin:			2% 1% 0px 0px;
 	text-align:	 	center;
 	width:			10%;
 	min-width: 		8%;
 	list-style:		none;
 	float: 			right;
-	font-size:		1.3vw;
+	font-size:		2vw;
 }
 #mainNav #navButton{
 	display: inline-block;
 	margin-top: 	0px; /* is negative px conventional? */
 	margin-right: 	5%;
 	padding:		5px 0px;
-	width:			10%;
-	min-width: 		8%;
+	width:			auto;
 	list-style:		none;
 	float:			right;
 }
-/*
-.navListClass:hover #navLinks::before{
-	content: ">>";
-}
-.navListClass:hover #navLinks::after{
-	content: "<<";
-}
-*/
 .navListClass:hover #navLinks
 {
 	color: #26A9E0;
@@ -157,10 +150,11 @@ html, body {
 	display:		inline-block;
 	color:			#EEEEEE;
 	border:			1px solid #268a16;
-	width:			170%;
-	height:			48px;
-	line-height:	48px;
+	width:			auto;
+	height:			auto;
+	line-height:	200%;
 	text-indent:	0;
+	float:			right;
 
 	font-family: 	Liberation;
 	font-size:		2vw;
@@ -233,34 +227,31 @@ html, body {
 		min-width: 		10%;
 		list-style:		none;
 	}
-	#mainNav #clubLogo{
-		position: 			fixed;	/*adjust position */
-		top: 				5px;
+	#mainNav #clubLogo, #clubLogo2{
+		position: 			absolute;	/*adjust position */
+		top: 				0px;
 		transition: 		all 1s;
 		z-index:			5;
+		width: 				30%;
+		height:				auto;
 	}
 	#mainNav #navList1, #navList2, #navList3, #navList4 {
 		display: 		inline-block;
-		margin:			1.8em 0px 0px 0px;
+		margin:			2.5% 1% 0px 0px;
 		text-align:	 	center;
 		width:			11%;
 		min-width: 		8%;
 		list-style:		none;
 	}
 	#mainNav #navButton{
-		display: 		inline-block; /*HIDDEN ON PORTRAIT*/
-		position: 		fixed;
-		top:			1.4em;
-		right:			2.6em;
-		width:			15%;
-		min-width: 		8%;
-		list-style:		none;
-	}
-	.navListClass:hover #navLinks::before{
-		content: ">>";
-	}
-	.navListClass:hover #navLinks::after{
-		content: "<<";
+	display:		inline-block;
+	color:			#EEEEEE;
+	border:			1px solid #268a16;
+	width:			auto;
+	height:			auto;
+	line-height:	200%;
+	text-indent:	0;
+	float:			right;
 	}
 	#navLinks:active
 	{
@@ -316,29 +307,31 @@ html, body {
 		list-style:		none;
 	}
 	#mainNav #clubLogo{
-		position: 			fixed;	/*adjust position */
-		top: 				8px;
+		position: 			absolute;	/*adjust position */
+		top: 				0px;
 		transition: 		all 1s;
 		z-index:			5;
 	}
 	#mainNav #navList1, #navList2, #navList3, #navList4 {
 		display: 		inline-block;
-		margin:			1.4em 0px 0px 0px;
+		margin:			2% 1% 0px 0px;
 		text-align:	 	center;
 		width:			12%;
 		min-width: 		8%;
 		list-style:		none;
 	}
+		#mainNav #clubLogo, #clubLogo2{
+		position: 			absolute;	/*adjust position */
+		top: 				0px;
+		transition: 		all 1s;
+		z-index:			5;
+		width: 				25%;
+		height:				auto;
+	}
 	#mainNav #navButton{
 		width:			12%;
 		min-width: 		8%;
 		list-style:		none;
-	}
-	.navListClass:hover #navLinks::before{
-		content: ">>";
-	}
-	.navListClass:hover #navLinks::after{
-		content: "<<";
 	}
 	#navLinks:active
 	{

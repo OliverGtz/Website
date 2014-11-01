@@ -2,9 +2,9 @@
 google.maps.event.addDomListener(window, 'load', initializeMap);
 </script>
 <div class="pure-g" id="contact">
-	<div class="pure-u-3-24">
+	<div class="pure-u-md-3-24 pure-u-1-24">
 	</div>
-	<div class="pure-u-18-24" id="centerdiv">
+	<div class="pure-u-md-18-24 pure-u-22-24" id="centerdiv">
 		<hr style="margin-top: 100px;">
 		<br />
 		<br />
@@ -38,6 +38,6 @@ google.maps.event.addDomListener(window, 'load', initializeMap);
 		<div id="map_canvas"></div>
 
 	</div>
-	<div class="pure-u-3-24">
+	<div class="pure-u-md-3-24 pure-u-1-24">
 	</div>
  </div>
