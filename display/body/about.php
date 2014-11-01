@@ -1,6 +1,6 @@
  <script>
 $(function() {
-$( "#accordion" ).accordion();
+$( "#accordion" ).accordion({ icons: { "header": "ui-icon-plus", "activeHeader": "ui-icon-minus" }});
 });
 </script>
 
@@ -9,18 +9,6 @@ $( "#accordion" ).accordion();
 	</div>
 	<div class="pure-u-18-24" id="centerdiv">
 		<center>
-			<!--
-			<p style="margin-top: 150px;">The Software Engineering Club at Moreno Valley College is a group of computer science students who
-			are dedicated to making an impact both in their careers and in their community.</p>
-			<p>We meet every week to organize projects, learn new techniques, and to plan events. We always have 
-			something new going on, whether it be creating applications to improve the lives of our fellow students,
-			presenting lectures on information security to help curb the plaque of identity theft, or volunteering
-			at regional programming competitions.</p>
-
-			<p>A variety of software development topics ranging from basic to advanced
-			will be presented by qualified speakers. These new 
-			skills will be put to the test in fun-filled group exercises and competitions.</p>
-			<p>Also, we have cake.</p>-->
 			<hr style="margin-top: 100px;">
 			<h1>About Us</h1>
 			<div id="accordion">
@@ -93,16 +81,47 @@ $( "#accordion" ).accordion();
 					</p>
 				</div>
 			</div>
-			<br />
-			<br />
-			<br />
-			<br />			
-			<br />
-			<br />
-			<div id="languages-funny-div">
-			<img id="aboutImage" src="display/media/images/languages_funny.jpg" alt="languages_funny">
+			<div style="margin-bottom: 10%; width: 100%;">
 			</div>
-		</center>
+			<h1>Image Gallery</h1>
+			<h6>Hover over an image to expand.</h6>
+			</center>
+			<div id="image-div2">
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage1.jpg" alt="languages_funny">
+				</div>
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage2.jpg" alt="languages_funny">
+				</div>
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage6.png" alt="languages_funny">
+				</div>
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage10.jpg" alt="languages_funny">
+				</div>
+			</div>
+			<div id="image-div2">
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage3.jpg" alt="languages_funny">
+				</div>
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage5.png" alt="languages_funny">
+				</div>
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage8.jpeg" alt="languages_funny">
+				</div>
+			</div>
+			<div id="image-div2">
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage4.jpg" alt="languages_funny">
+				</div>
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage7.png" alt="languages_funny">
+				</div>
+				<div id="image-div">
+					<img id="aboutImage" src="display/media/images/AboutImage9.jpg" alt="languages_funny">
+				</div>
+			</div>
 	</div>
 	<div class="pure-u-3-24">
 	</div>
