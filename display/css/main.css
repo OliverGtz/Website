@@ -90,7 +90,7 @@ footer{
     transition:			height .8s;
 }
 footer:hover{
-    height:				30%;
+    height:				210px;
 }
 footer p{
     margin:				0;
